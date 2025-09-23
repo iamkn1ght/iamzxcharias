@@ -31,7 +31,7 @@ const Header = () => {
           <li>
             <Link
               href="/contact"
-              className="text-[#D29C24] border-2 border-[#D29C24] rounded-full px-4 py-2"
+              className="text-accent-primary border-2 border-accent-primary hover:border-font hover:text-accent-secondary rounded-full px-4 py-2 transition duration-300"
             >
               GET IN TOUCH
             </Link>
