@@ -38,7 +38,7 @@ export default function Home() {
       <main className="bg-primary min-h-screen flex">
         <form
           onSubmit={handleSubmit}
-          className="bg-secondary flex flex-col m-auto p-10 rounded-lg shadow-lg md:w-1/2 ld:w-1/2"
+          className="bg-secondary flex flex-col mt-20 m-auto p-10 rounded-lg shadow-lg md:w-3/5 ld:w-3/5"
         >
           <h2 className="text-accent-primary text-4xl font-bold">Contact Me</h2>
           <div className="flex flex-col my-4">
@@ -49,7 +49,7 @@ export default function Home() {
               type="text"
               name="email"
               id="email"
-              className="mt-1 p-2 border border-gray-300 rounded"
+              className="mt-1 p-2 bg-font border border-border-light rounded"
               value={formData.email}
               onChange={handleChange}
             />
@@ -63,7 +63,7 @@ export default function Home() {
               type="text"
               name="subject"
               id="subject"
-              className="mt-1 p-2 border border-gray-300 rounded"
+              className="mt-1 p-2 bg-font border border-border-light rounded"
               value={formData.subject}
               onChange={handleChange}
             />
@@ -76,7 +76,7 @@ export default function Home() {
             <textarea
               name="message"
               id="message"
-              className="mt-1 p-2 border border-gray-300 rounded"
+              className="mt-1 md:pb-20 p-2 bg-font border border-border-light rounded"
               rows="4"
               value={formData.message}
               onChange={handleChange}
